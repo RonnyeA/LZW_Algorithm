@@ -1,3 +1,4 @@
+# LZW_Algorithm
 LZW Algorithm - Decoder README
 
 This decoder is meant to be used along with the encoder I created. 
