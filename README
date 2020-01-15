@@ -1,6 +1,8 @@
-### LZW_Algorithm - Encoder and Decoder
+###### 
+LZW_Algorithm - Encoder and Decoder
 
-# Introduction
+## 
+Introduction
 
 The LZW(Lempel-Ziv-Welch) algorithm is a lossless data compression algorithm which is a type of dictionary coding. It does not use statistical knowledge of the data compared to other algorithms such as Huffman and Arithmetic coding. The encoder develops a dictionary as the input is processed and transmits the index of strings found in the dictionary. The decoder inverts the process of encoding to reconstruct the dictionary and source file. It can be found in multiple applications such as Unix Compress, gzip and GIF.
 
