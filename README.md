@@ -21,7 +21,7 @@ Decoder.java uses a lot of the same methods as Encoder.java. It reads the encode
 The files I used had repeated, recurring patterns since this algorithm works the best under those conditions. I had five files of at least 1MB: aTest, alphabetTest, alphabetbackwardsTest, numbersTest and evenOddNumbersTest. aTest contained only the symbol ‘a’ and was used to see how the encoded file size would compare under the absolute best conditions. alphabetTest contained the alphabet repeatedly while alphabetbackwardsTest contained the alphabet forward then backwards repeatedly. I used those two to see how the encoded file size would vary since the latter contained a longer pattern. numbersTest and evenOddNumbersTest were very similar since they had the same number of unique symbols and pattern length, but the former was only half the file size.
 
 ## Results 
-!(https://i.imgur.com/jR17sB8.png)
+![Results](https://i.imgur.com/jR17sB8.png)
 Compared to the original files, the encoded files were, on average, 97.69% smaller when using my encoder. Compressing the files using ZIP had better results averaging 99.79% smaller files. Although these percentages are extremely close, ZIP files were approximately 87.22% smaller than the encoded file provided by my encoder. 
 
 ## Conclusion
